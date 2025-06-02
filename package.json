@@ -1,11 +1,11 @@
 {
-  "name": "goit-js-hw-10",
+  "name": "goit-js-hw-11",
   "private": true,
   "version": "0.0.1",
   "type": "module",
   "scripts": {
     "dev": "vite --open",
-    "build": "vite build --base=/goit-js-hw-10/",
+    "build": "vite build --base=/goit-js-hw-11/",
     "preview": "vite preview --open"
   },
   "devDependencies": {
@@ -15,19 +15,21 @@
     "postcss-sort-media-queries": "^5.2.0",
     "vite": "^6.3.5"
   },
-  "description": "HW 10. Async JS and promises.",
+  "description": "JS HW 11. HTTP requests and interaction with the backend",
   "main": "vite.config.js",
   "repository": {
     "type": "git",
     "url": "goit-js-hw-10"
   },
   "keywords": [
-    "async",
+    "http",
     "promises",
     "js",
     "javascript",
     "homework",
-    "hw"
+    "hw",
+    "http-request", 
+    "backend"
   ],
   "author": "MV <maxvertnov@gmail.com>",
   "license": "ISC",

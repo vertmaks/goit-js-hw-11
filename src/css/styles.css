@@ -11,7 +11,7 @@ body {
   padding: 25px;
 }
 
-main {
+.main {
   max-width: 1198px;
   background-color: #f1f1f7;
   border-radius: 25px;
