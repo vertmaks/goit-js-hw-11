@@ -1,2 +1,2 @@
-# goit-js-hw-10
-HW 10. Async JS and promises.
+# goit-js-hw-11
+JS HW 11. HTTP requests and interaction with the backend
