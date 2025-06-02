@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HW 10. Snackbar</title>
+    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="./css/main.css" />
+    <link rel="stylesheet" href="./css/2-snackbar.css" />
+  </head>
+  <body>
+    <a class="nav" href="./index.html">← Go back</a>
+    <main class="main">
+      <form class="form">
+        <label class="delay-label">
+          Delay (ms)
+          <input type="number" name="delay" step="500" min="0" required />
+        </label>
+
+        <fieldset>
+          <legend>State</legend>
+          <div class="radio-wrapper">
+            <label>
+              <input
+                class="visually-hidden"
+                type="radio"
+                name="state"
+                value="fulfilled"
+                required
+              />
+              <span class="custom-radio-input">
+                <span class="custom-radio-accepted"></span>
+              </span>
+              Fulfilled
+            </label>
+            <label>
+              <input
+                class="visually-hidden"
+                type="radio"
+                name="state"
+                value="rejected"
+                required
+              />
+              <span class="custom-radio-input">
+                <span class="custom-radio-accepted"></span>
+              </span>
+              Rejected
+            </label>
+          </div>
+        </fieldset>
+
+        <button class="form-btn" type="submit">Create notification</button>
+      </form>
+    </main>
+    <script type="module" src="./js/2-snackbar.js"></script>
+  </body>
+</html>
