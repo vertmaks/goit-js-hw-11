@@ -45,33 +45,6 @@ export function createGallery(images) {
   });
 }
 
-export function renderGallery(query) {
-  clearGallery();
-  showLoader();
-
-  getImagesByQuery(query)
-    .then(response => {
-      if (!response.ok) {
-        throw new Error(response.status);
-      }
-      return response.json();
-    })
-    .then(images => {
-      if (!images.hits.length) {
-        showError(
-          'Sorry, there are no images matching your search query. Please try again!'
-        );
-        gallery.innerHTML = '';
-        return;
-      }
-      createGallery(images.hits);
-    })
-    .catch(error => console.log(error))
-    .finally(() => {
-      hideLoader();
-    });
-}
-
 export function clearGallery() {
   gallery.innerHTML = '';
 }
