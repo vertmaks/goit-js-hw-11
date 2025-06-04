@@ -98,18 +98,18 @@ h1 {
   transform: translate(-50%, -50%) scale(1);
 }
 
-li {
+/* li {
   position: relative;
   margin: 8px 0;
-}
+} */
 
-li:first-child {
+/* li:first-child {
   margin-top: 0;
 }
 
 li:last-child {
   margin-bottom: 0;
-}
+} */
 
 .signature-container {
   position: relative;
